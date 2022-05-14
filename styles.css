@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+h2, h3, h4, h5 {
+    padding: 10px;
+}
+
+/* Nav */
+
+nav {
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 9.5px 10px;
+    background-color: black;
+    z-index: 1;
+}
+
+nav img {
+    height: 50px;
+    width: auto;
+}
+
+nav li {
+    text-decoration: underline;
+    color: seashell;
+    display: inline;
+    padding: 5px;
+    margin: 0 5px;
+    height: 49px;
+    line-height: 49px;
+}
+
+/* Mission */
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    height: 700px;
+    /* width: 1200px; */
+    margin: 0 auto;
+}
+
+#hero {
+    position: relative;
+    top: 50%;
+    background-color: black;
+    padding: 20px;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+    margin: 0 auto;
+    padding: 20px 20px 50px 20px;
+    /* width: 1000px; */
+}
+
+#all_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.products img {
+    padding-bottom: 10px;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+/* Locations */
+
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    /* height: 500px; */
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#all_locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 50px;
+}
+
+#locations h2 {
+    padding-top: 50px;
+}
+
+.location {
+    opacity: 1;
+    margin-top: 5px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+}
+
+.location h3 {
+    padding: 20px;
+}
+
+.light {
+    font-weight: 400;
+}
+
+/* Contact */
+
+#contact {
+    height: 200px;
+}
+/* Footer */
+
+#footer {
+    padding-left: 20px;
+    text-align: left;
+}
